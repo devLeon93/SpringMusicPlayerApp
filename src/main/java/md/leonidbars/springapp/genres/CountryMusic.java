@@ -1,10 +1,11 @@
 package md.leonidbars.springapp.genres;
 
 import md.leonidbars.springapp.Music;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 public class CountryMusic implements Music {
 
     private List<String> countrySongs = new ArrayList<>();
