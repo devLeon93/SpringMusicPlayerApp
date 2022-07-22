@@ -1,12 +1,13 @@
-package md.leonidbars.springapp;
+package md.leonidbars.springapp.genres;
 
+import md.leonidbars.springapp.Music;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class ClassicalMusic implements Music{
+public class ClassicalMusic implements Music {
 
     private List<String> classicalSongs = new ArrayList<>();
 

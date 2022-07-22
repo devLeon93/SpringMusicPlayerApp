@@ -1,12 +1,13 @@
-package md.leonidbars.springapp;
+package md.leonidbars.springapp.genres;
 
-import org.springframework.stereotype.Component;
+import md.leonidbars.springapp.Music;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
-public class RapMusic implements Music{
+
+public class RapMusic implements Music {
 
     private List<String> rapSongs = new ArrayList<>();
 
